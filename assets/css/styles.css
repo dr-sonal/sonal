@@ -59,7 +59,29 @@ table {
                 text-align:justify;
      
             } 
+
+
 */
+
+.map-link {
+    position: relative;
+    text-align: center;
+}
+
+.map-title {
+    display: inline-block;
+    position: relative;
+    margin-top: 22px; /* space for icon */
+}
+
+.location-icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 22px;
+    color: red;
+}
 
 /* Mobile-first responsive grid */
 .responsive-grid {
